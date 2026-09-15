@@ -15,9 +15,9 @@ int LinearSearch(vector<int> arr, int target){
 
 int main(){
 
-  vector<int> arr = {5,5,7,2,7};
-  int target = 7;
+vector<int> arr = {5,5,7,2,7};
+int target = 7;
 
-  cout<<"Target found at index "<<LinearSearch(arr,target);
-  return 0;
+cout<<"Target found at index "<<LinearSearch(arr,target);
+return 0;
 }
